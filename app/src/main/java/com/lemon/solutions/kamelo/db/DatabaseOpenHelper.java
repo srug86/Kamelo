@@ -21,8 +21,7 @@ public class DatabaseOpenHelper extends SQLiteOpenHelper {
 	public final static String AMOUNT = "amount";
 	public final static String CONSUMPTION = "consumption";
 	public final static String AVERAGE = "average";
-	public final static String[] fullColumns = { _ID, DATE, DISTANCE, PRICE, AMOUNT,
-			CONSUMPTION, AVERAGE };
+	public final static String[] fullColumns = { _ID, DATE, PRICE, DISTANCE, CONSUMPTION, AVERAGE };
 	public final static String[] reducedColumns = { _ID, DATE, AVERAGE };
 	// -> CREATE TABLE
 	final private static String CREATE_CMD =
